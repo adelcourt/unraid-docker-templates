@@ -3,7 +3,7 @@
   <Name>Factorio</Name>
   <Description>Factorio server</Description>
   <Registry>https://hub.docker.com/r/dtandersen/factorio/</Registry>
-  <Repository>dtandersen/Factorio</Repository>
+  <Repository>dtandersen/factorio</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
