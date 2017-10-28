@@ -6,7 +6,7 @@
   <Repository>bcongdon/github-backup</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment><Environment/>
+  <Environment/>
   <Config 
     Type="Path" 
     Name="Config directory" 

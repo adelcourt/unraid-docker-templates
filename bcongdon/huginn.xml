@@ -7,8 +7,8 @@
     [b]/var/lib/mysql[/b] : Storage location of Huginn's MySQL.[br]
     You can find all of the other configurable environment variables listed at the docker hub.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/cantino/huginn/</Registry>
-  <GitHub>https://github.com/cantino/huginn/tree/master/</GitHub>
+  <Registry>https://registry.hub.docker.com/u/huginn/huginn/</Registry>
+  <GitHub>https://github.com/huginn/huginn/tree/master/</GitHub>
   <Repository>cantino/huginn</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
