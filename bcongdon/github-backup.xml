@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Github Backup</Name>
+  <Description>Utility to backup your github repositories</Description>
+  <Registry>https://hub.docker.com/r/bcongdon/github-backup/</Registry>
+  <Repository>bcongdon/github-backup</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment><Environment/>
+  <Config 
+    Type="Path" 
+    Name="Config directory" 
+    Target="/storage" 
+    Default="/mnt/user/appdata/github-backup" 
+    Mode="rw" 
+    Description="This is where Github Backup will backup your repositories."
+    Required="true">/mnt/user/appdata/github-backup
+  </Config>
+  <Config 
+    Type="Variable" 
+    Name="Github OAuth Toekn" 
+    Target="GITHUB_TOKEN" 
+    Default="" 
+    Description="OAuth Token for accessing your Github repos" 
+    Mask="false" 
+    Display="always" 
+    Required="true">OAuth Token
+  </Config>
+  <Config 
+    Type="Variable" 
+    Name="Github Username" 
+    Target="GITHUB_USERNAME" 
+    Default="" 
+    Description="Your Github username" 
+    Mask="false" 
+    Display="always" 
+    Required="true">Username
+  </Config>
+  <Icon>https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
