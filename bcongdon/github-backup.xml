@@ -24,8 +24,7 @@
     Description="OAuth Token for accessing your Github repos" 
     Mask="false" 
     Display="always" 
-    Required="true">OAuth Token
-  </Config>
+    Required="true">OAuth Token</Config>
   <Config 
     Type="Variable" 
     Name="Github Username" 
@@ -34,8 +33,7 @@
     Description="Your Github username" 
     Mask="false" 
     Display="always" 
-    Required="true">Username
-  </Config>
+    Required="true">Username</Config>
   <Icon>https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
