@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
+<Container version="2">
   <Name>Podsync</Name>
   <Description>Turn YouTube or Vimeo channels, users, or playlists into podcast feeds</Description>
   <Registry>https://hub.docker.com/r/mxpv/podsync/</Registry>
@@ -19,20 +19,11 @@
   <Environment/>
   <Config 
     Type="Path" 
-    Name="Config File" 
-    Target="/app/config.toml" 
-    Default="/mnt/user/appdata/podsync/config.toml" 
+    Name="Storage Directory" 
+    Target="/app/" 
+    Default="/mnt/user/appdata/podsync" 
     Mode="rw" 
-    Description="The podsync config file."
-    Required="true">
-  </Config>
-  <Config 
-    Type="Path" 
-    Name="Data Directory" 
-    Target="/app/data/" 
-    Default="/mnt/user/appdata/podsync/data" 
-    Description="Where to store podsync's data (including podcast episodes)" 
-    Mask="rw" 
+    Description="The folder to save podsync's config and data"
     Required="true">
   </Config>
   <Icon>https://github.com/mxpv/podsync/raw/master/docs/img/logo.png</Icon>
