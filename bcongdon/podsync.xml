@@ -24,8 +24,8 @@
     Default="/mnt/user/appdata/podsync/data" 
     Mode="rw" 
     Description="The folder to save podsync's data"
-    Required="true">
-  </Config>/mnt/user/appdata/podsync/data
+    Required="true">/mnt/user/appdata/podsync/data
+  </Config>
   <Config 
     Type="Path" 
     Name="Config Directory" 
