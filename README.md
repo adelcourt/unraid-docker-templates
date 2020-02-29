@@ -2,9 +2,8 @@
 
 ## Templates
 
-* cantino/huginn
-    * Adapted from alias1's [template](https://github.com/alias1/unraid-docker-templates/blob/master/cantino/huginn.xml)
-* dtandersen/factorio
+
+* factoriotools/factorio
     * Used to run a Factorio server from within Docker
 * bcongdon/github-backup
     * Periodically backup your github repositories
@@ -14,5 +13,5 @@
 Add this repo to your Docker Template Repos in Unraid under Docker => Template Repositories.
 
 ```
-https://github.com/bcongdon/unraid-docker-templates
+https://github.com/adelcourt/unraid-docker-templates
 ```
